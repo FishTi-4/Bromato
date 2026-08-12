@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{7e3622b6-fcc0-453a-8cbd-4794b43d3b3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\context">
+      <UniqueIdentifier>{4708d09c-cbce-4037-81d1-5d1f9cff03d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Managers">
+      <UniqueIdentifier>{57bde700-4cd4-44df-93ee-51a2df01eaff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\classes">
+      <UniqueIdentifier>{46dd013e-66d5-42b0-8cc3-9a02a2a06a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Scenes">
+      <UniqueIdentifier>{f18a71e6-1e09-4a60-abc3-b8f476fc93a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Scenes\Menu">
+      <UniqueIdentifier>{bc681192-9748-4b4b-b904-58a8c263d7ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Scenes\Game">
+      <UniqueIdentifier>{53bfdf1d-6465-41e1-a7ad-55cf66d3192f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Scenes\Shop">
+      <UniqueIdentifier>{739592d6-ac0a-45cd-87b1-9fb8371dda11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Scenes\Summary">
+      <UniqueIdentifier>{b629b303-e4b2-48cc-92ea-3cf8a2e422fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Scenes\Selection">
+      <UniqueIdentifier>{03d83b14-3e9d-4f89-8234-e072b91d8794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Scenes\About">
+      <UniqueIdentifier>{5294ca37-0302-4dd8-bee7-212ebeb4b652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Scenes\History">
+      <UniqueIdentifier>{8a8fe12f-c40a-492d-a7e0-089a4af327ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Scenes\Settings">
+      <UniqueIdentifier>{c41b8cb6-3e3d-45e2-9dd2-be5462e6791b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\classes\Entity">
+      <UniqueIdentifier>{dd701368-6772-42d1-ad1d-03d9d580ebc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\classes\Button">
+      <UniqueIdentifier>{e73e57e1-6b31-4a1f-a3c3-ac9a3b7c2793}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SceneGame.cpp">
+      <Filter>source\Scenes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneShop.cpp">
+      <Filter>source\Scenes\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMenu.cpp">
+      <Filter>source\Scenes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSummary.cpp">
+      <Filter>source\Scenes\Summary</Filter>
+    </ClCompile>
+    <ClCompile Include="Definitions.cpp">
+      <Filter>source\context</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetsManager.cpp">
+      <Filter>source\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSelection.cpp">
+      <Filter>source\Scenes\Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneAbout.cpp">
+      <Filter>source\Scenes\About</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneHistory.cpp">
+      <Filter>source\Scenes\History</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>source\Scenes\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>source\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>source\classes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPool.cpp">
+      <Filter>source\classes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>source\classes\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>source\classes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>source\classes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>source\classes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>source\classes\Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SceneGame.h">
+      <Filter>source\Scenes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneShop.h">
+      <Filter>source\Scenes\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMenu.h">
+      <Filter>source\Scenes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSummary.h">
+      <Filter>source\Scenes\Summary</Filter>
+    </ClInclude>
+    <ClInclude Include="context.h">
+      <Filter>source\context</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetsManager.h">
+      <Filter>source\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RuntimeData.h">
+      <Filter>source\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>source\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterManager.h">
+      <Filter>source\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>source\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponsManager.h">
+      <Filter>source\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>source\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneAbout.h">
+      <Filter>source\Scenes\About</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneHistory.h">
+      <Filter>source\Scenes\History</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>source\Scenes\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Attribute.h">
+      <Filter>source\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>source\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>source\classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityPool.h">
+      <Filter>source\classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>source\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>source\classes\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>source\classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>source\classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>source\classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="BarOptions.h">
+      <Filter>source\Scenes\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="ChineseFontHandler.h">
+      <Filter>source\context</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>source\classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSelection.h">
+      <Filter>source\Scenes\Selection</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

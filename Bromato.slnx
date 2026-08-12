@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Debug" />
+    <BuildType Name="Release" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Bromato.vcxproj" Id="2189f62b-9da1-4594-a8ac-7b855fd09ad5" />
+</Solution>

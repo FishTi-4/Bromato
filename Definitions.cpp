@@ -1,0 +1,11 @@
+#include "context.h"
+AssetsManager assets;
+WeaponsManager weapons;
+ItemManager items;
+CharacterManager characters;
+MapManager maps;
+EnemyManager enemies;
+RuntimeData data;
+AudioManager audio;
+Font fontCN;
+ChineseFontHandler chineseFontHandler;
