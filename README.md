@@ -30,8 +30,9 @@
 1. 使用 Visual Studio 打开 `Bromato.slnx`。
 2. 选择 `x64` 和 `Debug` 或 `Release` 配置。
 3. 生成并运行项目。
-
 项目已经包含 raylib 依赖，正常情况下不需要额外配置。
+
+此版本已上传编译文件运行Bromato.exe文件即可运行
 
 ## 主要目录
 
